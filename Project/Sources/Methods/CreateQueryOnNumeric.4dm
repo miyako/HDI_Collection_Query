@@ -1,6 +1,6 @@
 //%attributes = {"invisible":true}
-#DECLARE->$0 : Text
+#DECLARE->$result : Text
 
-$0:="salary "+ComparatorOperator{ComparatorOperator}+" "+String:C10(vSalary2)
+$result:="salary "+ComparatorOperator{ComparatorOperator}+" "+String:C10(vSalary2)
 
 

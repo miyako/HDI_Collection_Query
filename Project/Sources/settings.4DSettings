@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><preferences stamp="9">
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="10">
 	<com.4d>
 		<deployment>
 			<options/>
@@ -8,7 +8,7 @@
 			<user splash_screen="false"/>
 		</interface>
 		<compiler>
-			<options compilation_path="3" fat_binary="true"/>
+			<options compilation_path="3" error_file="true" fat_binary="true"/>
 			<typage default_for_button="2"/>
 			<method_suffix methods="Methods"/>
 		</compiler>
@@ -20,14 +20,14 @@
 		</server>
 		<web>
 			<standalone_server>
-				<configuration session_mode="3" automatic_session_management="true"/>
+				<configuration automatic_session_management="true" session_mode="3"/>
 			</standalone_server>
 			<remote>
-				<configuration session_mode="3" automatic_session_management="true"/>
+				<configuration automatic_session_management="true" session_mode="3"/>
 			</remote>
 		</web>
 		<database>
-			<misc standard_xpath="false" non_blocking_printing="false"/>
+			<misc non_blocking_printing="false" standard_xpath="false"/>
 		</database>
 	</com.4d>
 </preferences>

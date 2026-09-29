@@ -1,5 +1,5 @@
 //%attributes = {"invisible":true}
-var $system; $n; $i : Integer
+var $n; $i : Integer
 
 READ ONLY:C145([INFO:1])
 //ALL RECORDS([INFO])
@@ -18,9 +18,7 @@ SELECTION TO ARRAY:C260([INFO:1]Description:2; _TabLineCode)
 
 
 
-_O_PLATFORM PROPERTIES:C365($system)
-
-If ($system=Windows:K25:3)
+If (Is Windows)
 	$n:=Size of array:C274(_TabLineCode)
 	For ($i; 1; $n)
 		ST SET ATTRIBUTES:C1093(_TabLineCode{$i}; ST Start text:K78:15; ST End text:K78:16; Attribute text size:K65:6; 12; Attribute italic style:K65:2; 1)
