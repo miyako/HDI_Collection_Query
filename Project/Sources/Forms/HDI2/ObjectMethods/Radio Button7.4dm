@@ -1,0 +1,1 @@
+OperatorsExample2:=DisplayDynamicQuery(vQuery2)

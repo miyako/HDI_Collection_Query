@@ -1,0 +1,32 @@
+{
+	"Callback": {
+		"methods": [
+			"EmployeeObj"
+		]
+	},
+	"Conversion": {
+		"methods": [
+			"EmployeeToArrays"
+		]
+	},
+	"Default Folder": {
+		"groups": [
+			"Default Forms",
+			"Default Project Methods",
+			"Default Tables"
+		]
+	},
+	"Default Forms": {},
+	"Default Project Methods": {},
+	"Default Tables": {},
+	"Init": {
+		"methods": [
+			"DisplayDynamicQuery",
+			"Init",
+			"InitLabels",
+			"InitTab",
+			"ResetvQuery"
+		]
+	},
+	"trash": {}
+}
