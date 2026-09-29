@@ -1,0 +1,1 @@
+OperatorsExample:=DisplayDynamicQuery(CreateQueryOnNumeric)

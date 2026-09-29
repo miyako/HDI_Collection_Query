@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="HDI2_Text7" resname="HDI2_Text7">
+        <source>In this part you will learn how to query the DataStore</source>
+        <target>In this part you will learn how to query the DataStore</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextSalaryGreaterThan" resname="HDI2_TextSalaryGreaterThan">
+        <source>View employees with a salary greater than:</source>
+        <target>View employees with a salary greater than:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextFindAllSalaries" resname="HDI2_TextFindAllSalaries">
+        <source>Find all the salaries:</source>
+        <target>Find all the salaries:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextLastNameBeginsWith" resname="HDI2_TextLastNameBeginsWith">
+        <source>View employees whose last name begins with:</source>
+        <target>View employees whose last name begins with:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextListOfEmployees" resname="HDI2_TextListOfEmployees">
+        <source>List of employees</source>
+        <target>List of employees</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextOr" resname="HDI2_TextOr">
+        <source>or</source>
+        <target>or</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextSalaryBetween" resname="HDI2_TextSalaryBetween">
+        <source>View employees whose salary is between:</source>
+        <target>View employees whose salary is between:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextAnd" resname="HDI2_TextAnd">
+        <source>and</source>
+        <target>and</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextWildcardEqual" resname="HDI2_TextWildcardEqual">
+        <source>Search a string with the '@' wildcard character with the '=' operator:</source>
+        <target>Search a string with the '@' wildcard character with the '=' operator:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextWildcardTripleEqual" resname="HDI2_TextWildcardTripleEqual">
+        <source>Search a string with the '@' character in an email address with the '===' operator:</source>
+        <target>Search a string with the '@' character in an email address with the '===' operator:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnQuery" resname="HDI2_BtnQuery">
+        <source>Query</source>
+        <target>Query</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnViewAll" resname="HDI2_BtnViewAll">
+        <source>View all</source>
+        <target>View all</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnReset" resname="HDI2_BtnReset">
+        <source>Reset</source>
+        <target>Reset</target>
+      </trans-unit>
+      <trans-unit id="HDI2_ColFirstName" resname="HDI2_ColFirstName">
+        <source>firstName</source>
+        <target>firstName</target>
+      </trans-unit>
+      <trans-unit id="HDI2_ColLastName" resname="HDI2_ColLastName">
+        <source>lastName</source>
+        <target>lastName</target>
+      </trans-unit>
+      <trans-unit id="HDI2_ColSalary" resname="HDI2_ColSalary">
+        <source>salary</source>
+        <target>salary</target>
+      </trans-unit>
+      <trans-unit id="HDI2_ColEmployerName" resname="HDI2_ColEmployerName">
+        <source>employer.name</source>
+        <target>employer.name</target>
+      </trans-unit>
+      <trans-unit id="HDI2_ColEmail" resname="HDI2_ColEmail">
+        <source>email</source>
+        <target>email</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

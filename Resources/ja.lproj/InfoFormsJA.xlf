@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/TableForms/1" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="InfoForm_Description" resname="InfoForm_Description">
+        <source>Description</source>
+        <target>説明</target>
+      </trans-unit>
+      <trans-unit id="InfoForm_IDLabel" resname="InfoForm_IDLabel">
+        <source>ID : </source>
+        <target>ID : </target>
+      </trans-unit>
+      <trans-unit id="InfoForm_TabTitle" resname="InfoForm_TabTitle">
+        <source>Tab title</source>
+        <target>タブタイトル</target>
+      </trans-unit>
+      <trans-unit id="InfoForm_PageNumber" resname="InfoForm_PageNumber">
+        <source>Page number</source>
+        <target>ページ番号</target>
+      </trans-unit>
+      <trans-unit id="InfoForm_PageLabel" resname="InfoForm_PageLabel">
+        <source>Page:</source>
+        <target>ページ:</target>
+      </trans-unit>
+      <trans-unit id="InfoForm_TabTitleColumn" resname="InfoForm_TabTitleColumn">
+        <source>Tab Title</source>
+        <target>タブタイトル</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
