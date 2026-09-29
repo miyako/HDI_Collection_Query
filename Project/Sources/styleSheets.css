@@ -1,0 +1,15 @@
+/* Cross-platform dark mode support.
+   "automatic" / "automaticAlternate" values set directly on form objects
+   already adapt to the system color scheme without any CSS. The rules
+   below only cover objects that need a specific, branded colour in each
+   scheme rather than the generic automatic behaviour. */
+
+.hdi-link {
+	color: #1E90FF;
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-link {
+		color: #5CB8FF;
+	}
+}

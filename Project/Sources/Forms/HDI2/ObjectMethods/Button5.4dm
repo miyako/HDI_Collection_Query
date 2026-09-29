@@ -1,5 +1,5 @@
 
-C_OBJECT:C1216($params)
+var $params : Object
 
 $params:=New object:C1471
 $params.parameters:=New collection:C1472(vSalary2; vSalary3)

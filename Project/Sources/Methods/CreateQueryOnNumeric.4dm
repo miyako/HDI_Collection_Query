@@ -1,5 +1,5 @@
-//%attributes = {}
-C_TEXT:C284($0)
+//%attributes = {"invisible":true}
+#DECLARE->$0 : Text
 
 $0:="salary "+ComparatorOperator{ComparatorOperator}+" "+String:C10(vSalary2)
 

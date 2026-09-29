@@ -1,10 +1,10 @@
-//%attributes = {}
-C_OBJECT:C1216($1)
-C_COLLECTION:C1488($tmp)
+//%attributes = {"invisible":true}
+#DECLARE($item : Object)
+var $tmp : Collection
 
-$tmp:=Split string:C1554($1.value; ";")
+$tmp:=Split string:C1554($item.value; ";")
 
-$1.result:=New object:C1471("ID"; Num:C11($tmp[0]); "firstName"; $tmp[1]; \
+$item.result:=New object:C1471("ID"; Num:C11($tmp[0]); "firstName"; $tmp[1]; \
 "lastName"; $tmp[2]; \
 "salary"; Num:C11($tmp[3]); \
 "department"; $tmp[4]; \

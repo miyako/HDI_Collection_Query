@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/TableForms/1" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="InfoForm_Description" resname="InfoForm_Description">
+        <source>Description</source>
+        <target>Description</target>
+      </trans-unit>
+      <trans-unit id="InfoForm_IDLabel" resname="InfoForm_IDLabel">
+        <source>ID : </source>
+        <target>ID : </target>
+      </trans-unit>
+      <trans-unit id="InfoForm_TabTitle" resname="InfoForm_TabTitle">
+        <source>Tab title</source>
+        <target>Tab title</target>
+      </trans-unit>
+      <trans-unit id="InfoForm_PageNumber" resname="InfoForm_PageNumber">
+        <source>Page number</source>
+        <target>Page number</target>
+      </trans-unit>
+      <trans-unit id="InfoForm_PageLabel" resname="InfoForm_PageLabel">
+        <source>Page:</source>
+        <target>Page:</target>
+      </trans-unit>
+      <trans-unit id="InfoForm_TabTitleColumn" resname="InfoForm_TabTitleColumn">
+        <source>Tab Title</source>
+        <target>Tab Title</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

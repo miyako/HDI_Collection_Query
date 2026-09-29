@@ -1,5 +1,5 @@
-//%attributes = {}
-C_LONGINT:C283($system; $n; $i)
+//%attributes = {"invisible":true}
+var $system; $n; $i : Integer
 
 READ ONLY:C145([INFO:1])
 //ALL RECORDS([INFO])

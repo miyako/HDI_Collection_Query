@@ -1,19 +1,16 @@
 //%attributes = {"invisible":true}
 
-//00_Start
-C_LONGINT:C283(00_Start; $1)
-C_TEXT:C284(00_Start; $2)
-C_BOOLEAN:C305(00_Start; $0)
+  // 00_Start
+  // Now uses #DECLARE($params : Object) — see Methods/00_Start.4dm
 
-//CreateQueryOnNumeric
-C_TEXT:C284(CreateQueryOnNumeric; $0)
+  // CreateQueryOnNumeric
+  // Now uses #DECLARE->$0 : Text — see Methods/CreateQueryOnNumeric.4dm
 
-//EmployeeToArrays
-C_COLLECTION:C1488(EmployeeToArrays; $1)
+  // EmployeeToArrays
+  // Now uses #DECLARE($employees : Collection) — see Methods/EmployeeToArrays.4dm
 
-//DisplayDynamicQuery
-C_TEXT:C284(DisplayDynamicQuery; $0)
-C_TEXT:C284(DisplayDynamicQuery; $1)
+  // DisplayDynamicQuery
+  // Now uses #DECLARE($query : Text)->$0 : Text — see Methods/DisplayDynamicQuery.4dm
 
-//EmployeeObj
-C_OBJECT:C1216(EmployeeObj; $1)
+  // EmployeeObj
+  // Now uses #DECLARE($item : Object) — see Methods/EmployeeObj.4dm

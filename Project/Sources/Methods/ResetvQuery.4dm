@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 
 vQuery1:="firstName = e@"
 vQuery2:="salary >= 70000"

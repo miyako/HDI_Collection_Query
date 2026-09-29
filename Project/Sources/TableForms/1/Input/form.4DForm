@@ -47,8 +47,8 @@
 					"width": 380,
 					"height": 17,
 					"sizingX": "grow",
-					"stroke": "#000000",
-					"text": "Description"
+					"stroke": "automatic",
+					"text": ":xliff:InfoForm_Description"
 				},
 				"Line6": {
 					"type": "line",
@@ -197,7 +197,8 @@
 					"width": 85,
 					"height": 17,
 					"textAlign": "right",
-					"text": "ID : "
+					"text": ":xliff:InfoForm_IDLabel",
+					"stroke": "automatic"
 				},
 				"ID": {
 					"type": "input",
@@ -237,7 +238,7 @@
 					"sizingY": "grow",
 					"dataSource": "[INFO:1]Description:2",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"styledText": true,
 					"scrollbarVertical": "visible",
@@ -292,8 +293,8 @@
 					"width": 380,
 					"height": 17,
 					"sizingX": "grow",
-					"stroke": "#000000",
-					"text": "Tab title"
+					"stroke": "automatic",
+					"text": ":xliff:InfoForm_TabTitle"
 				},
 				"Tab title1": {
 					"type": "text",
@@ -302,8 +303,8 @@
 					"width": 380,
 					"height": 17,
 					"sizingX": "grow",
-					"stroke": "#000000",
-					"text": "Page number"
+					"stroke": "automatic",
+					"text": ":xliff:InfoForm_PageNumber"
 				}
 			}
 		}
